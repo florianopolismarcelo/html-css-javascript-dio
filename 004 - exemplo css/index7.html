@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seletor de atributo</title>
+   <style>
+    /*[atrib=value]  obs: em title Netflix tem Streaming na frente porém para funcionar o style tem que colocar ~ após o title como exemplo abaixo*/
+    [title~="Netflix"] {
+      color: red;
+    }
+    [title="Spotify"] {
+      color: green;
+    }
+    [title="Prime"] {
+      color: blueviolet;
+    }
+   </style>
+  </head>
+  <body>
+  <div>
+    <ul>
+      <li>
+        <a title="Streaming Netflix" href="https://www.netflix.com">Netflix</a>
+      </li>
+      <li>
+        <a title="Prime" href="https://www.primevideo.com">Prime Video</a>
+      </li>
+      <li>
+        <a title="Spotify" href="https://www.spotify.com">Spotify</a>
+      </li>
+      <li>
+        <a title="Netflix">Disney Plus</a>
+      </li>
+    </ul>
+  </div>
+  </body>
+</html>
