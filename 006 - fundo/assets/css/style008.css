@@ -1,0 +1,39 @@
+body {
+  height: 200vh;
+  background-color: antiquewhite;
+}
+div {
+  margin-bottom: 30px;
+}
+.exemplo {
+  width: 300px;
+  height: 400px;
+  border: 15px dashed goldenrod;
+  color: white;
+  padding: 30px;
+  font-size: 40px;
+  font-weight: 900;
+  background-color: aquamarine;
+  background-image: url(../images/bibliasagrada.jpg);
+  background-size: 100% 100%;
+  background-blend-mode: luminosity;
+}
+
+/*
+background-blend-mode: multiply;
+background-blend-mode: screen;
+background-blend-mode: overlay;
+background-blend-mode: darken;
+background-blend-mode: lighten;
+background-blend-mode: color-dodge;
+background-blend-mode: color-burn;
+background-blend-mode: hard-light;
+background-blend-mode: soft-light;
+background-blend-mode: difference;
+background-blend-mode: exclusion;
+background-blend-mode: hue;
+background-blend-mode: saturation;
+background-blend-mode: color;
+*/
+
+
