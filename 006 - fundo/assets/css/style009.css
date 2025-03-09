@@ -1,0 +1,30 @@
+div {
+  margin-bottom: 30px;
+}
+.exemplo {
+  width: 300px;
+  height: 300px;
+  border: 15px dashed goldenrod;
+  color: white;
+  padding: 30px;
+  font-size: 35px;
+  font-weight: 900;
+  background: url("../images/montesinai.jpg") top center / 200px 200px no-repeat padding-box content-box red ;
+}
+/*com fixed a imagem desapareceu*/
+/* 
+  background: 
+  url('../images/montesinai.jpg') top center / 200px 200px no-repeat fixed padding-box content-box red;
+}
+*/
+/*
+ background: 
+  url('../images/bibliasagrada.jpg') = image
+  top center / 200px 200px = position / size
+  no-repeat = repeat 
+  fixed = attachment 
+  padding-box = origin 
+  content-box = clip 
+  red  color 
+  ;
+*/
