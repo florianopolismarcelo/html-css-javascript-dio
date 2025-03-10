@@ -1,0 +1,23 @@
+* {
+  font-family: Roboto, sans-serif;
+}
+.exemplo {
+  background-color: antiquewhite;
+  width: 200px;
+  height: 200px;
+  border-width: 10px;
+  border-style: dotted dashed solid double;
+}
+/*
+border-style: dotted dashed solid double;
+border-style: outset;
+border-style: inset;
+border-style: ridge;
+border-style: groove;
+border-style: double;
+border-style: dotted;
+border-style: dashed;
+border-style: solid;
+border-style: groove;
+
+*/
