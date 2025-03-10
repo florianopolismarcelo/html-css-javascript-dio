@@ -1,0 +1,16 @@
+* {
+  font-family: Roboto, sans-serif;
+}
+.exemplo {
+  background-color: aquamarine;
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-width: 10px 20px 30px 40px;
+}
+/*
+border-width: 10px;  
+border-width: thin; /* Correnspondente a 1px 
+border-width: medium;
+border-width: thick;
+*/
