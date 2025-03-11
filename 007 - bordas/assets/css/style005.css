@@ -9,11 +9,11 @@ body {
   background-color: aqua;
   width: 200px;
   height: 200px;
-  border: 30px solid;
+  border-radius: 50%; /* transforma em um circulo */
 }
-#exemplo-1{
-border-image-source: url('../image/balaofesta.png');
-}
-#exemplo-2{
-  border-image-source: linear-gradient(purple, orange);
-}
+
+/*
+border-radius: 50px/100px;
+border-radius: 20px 10px 30px 50px;
+border-radius: 10px/50px;
+*/
