@@ -1,0 +1,19 @@
+* {
+  font-family: Roboto, sans-serif;
+}
+body {
+  background-color: black;
+  color: antiquewhite;
+}
+.exemplo {
+  background-color: aqua;
+  width: 200px;
+  height: 200px;
+  border: 30px solid;
+}
+#exemplo-1{
+border-image-source: url('../image/balaofesta.png');
+}
+#exemplo-2{
+  border-image-source: linear-gradient(purple, orange);
+}
