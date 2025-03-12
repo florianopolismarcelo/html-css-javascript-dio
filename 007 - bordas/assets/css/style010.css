@@ -1,0 +1,26 @@
+* {
+  font-family: Roboto, sans-serif;
+}
+body {
+  background-color: black;
+  color: antiquewhite;
+}
+.exemplo {
+  background-color: aqua;
+  width: 200px;
+  height: 200px;
+  border: 30px solid;
+  margin:  50px auto;
+}
+#exemplo-1{
+  border-image-source: url('../image/estrelas.png');
+  border-image-repeat: space;
+  border-image-slice: 450;
+  border-image-outset: 1;
+}
+
+#exemplo-2{
+  border-image-source: linear-gradient(purple, orange);
+  border-image-slice: 10;
+  border-image-outset: 1;
+  }
