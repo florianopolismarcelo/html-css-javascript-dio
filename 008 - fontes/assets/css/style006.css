@@ -1,0 +1,15 @@
+#fundo {
+  background: greenyellow;
+}
+#exemplo {
+  font-weight: lighter;
+}
+#bold {
+  font-weight: bold;
+}
+div {
+  font-weight: normal;
+}
+div p {
+  font-weight: bolder;
+}
