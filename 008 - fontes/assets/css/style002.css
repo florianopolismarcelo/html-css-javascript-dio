@@ -1,0 +1,45 @@
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Black.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Thin.ttf");
+  font-weight: lighter;
+}
+
+p {
+  font-family: Roboto;
+  font-weight: lighter;
+}
+
+
+
+
+/*
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: Safira;
+  src: url("../fonts/Roboto-Italic.ttf");
+}
+
+* {
+  font-family: Roboto;
+}
+
+h1 {
+  font-family: Safira;
+}
+*/
