@@ -1,0 +1,11 @@
+#fundo {
+  background: greenyellow;
+}
+p {
+  text-transform: lowercase;
+}
+/*
+text-transform: lowercase;
+text-transform: uppercase;
+text-transform: capitalize;
+*/
