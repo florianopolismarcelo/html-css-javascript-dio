@@ -1,0 +1,9 @@
+#fundo {
+  background: greenyellow;
+}
+#exemplo-letter-spacing {
+  letter-spacing: 2px;
+}
+#exemplo-word-spacing {
+  word-spacing: 20px;
+}
