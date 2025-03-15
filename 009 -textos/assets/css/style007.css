@@ -1,0 +1,15 @@
+#fundo {
+  background: greenyellow;
+}
+.exemplo {
+  width: 100px;
+  color: brown;
+  background-color: burlywood;
+}
+ #normal {
+  word-wrap: nomal;
+ }
+
+ #break-word {
+  word-wrap: break-word;
+ }
