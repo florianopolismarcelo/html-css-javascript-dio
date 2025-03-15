@@ -1,0 +1,31 @@
+#fundo {
+  background: greenyellow;
+}
+.exemplo {
+  width: 200px;
+  background-color: burlywood;
+}
+span {
+  background-color: aqua;
+  color: brown;
+}
+
+#nowrap {
+white-space: nowrap;
+}
+
+#pre {
+  white-space: pre;
+}
+
+#pre-line {
+  white-space: pre-line;
+}
+
+#pre-wrap {
+  white-space: pre-wrap;
+}
+
+#break-space {
+  white-space: break-space;
+}
