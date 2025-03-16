@@ -1,0 +1,25 @@
+#fundo {
+  background: greenyellow;
+}
+.exemplo, .exemplo2 {
+  width: 100px;
+  color: brown;
+  background-color: burlywood;
+}
+
+.exemplo2 {
+  background-color: aquamarine;
+}
+ #normal {
+  word-wrap: nomal;
+ }
+
+ #break-word {
+  word-wrap: break-word;
+ }
+ #break-all {
+  word-break: break-all;
+ }
+ #keep-all {
+  word-break: keep-all;
+ }
