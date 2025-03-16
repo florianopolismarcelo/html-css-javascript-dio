@@ -1,0 +1,24 @@
+#fundo {
+  background: greenyellow;
+}
+.exemplo{
+  width: 200px;
+  color: brown;
+  background-color: aquamarine;
+}
+
+p {
+white-space: nowrap;
+overflow: hidden;
+}
+
+#exemplo-01 {
+text-overflow: clip;
+}
+#exemplo-02 {
+  text-overflow: ellipsis;
+
+ }
+ #exemplo-03 {
+text-overflow: 'ver mais'; /*Só funciona em navegador firefox*/
+ }
