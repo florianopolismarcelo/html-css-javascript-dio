@@ -1,0 +1,19 @@
+#fundo {
+  background: greenyellow;
+}
+.exemplo{
+  width: 120px;
+  height: 120px;
+  color: brown;
+  background-color: aquamarine;
+}
+
+#exemplo-01 {
+ writing-mode: horizontal-tb;
+}
+#exemplo-02 {
+  writing-mode: vertical-rl;
+ }
+ #exemplo-03 {
+  writing-mode: vertical-lr;
+ }
