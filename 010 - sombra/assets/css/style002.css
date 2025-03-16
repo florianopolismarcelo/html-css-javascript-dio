@@ -1,0 +1,13 @@
+#fundo {
+  background: greenyellow;
+}
+img {
+  width: 400px;
+  height: 400px;
+  margin: 20px auto;
+  object-fit: cover;
+  filter: drop-shadow(20px 20px 5px gray);
+  box-shadow: 10px 10px 5px gray;
+}
+
+
