@@ -1,0 +1,18 @@
+#fundo {
+  background: greenyellow;
+}
+div {
+  width: 250px;
+  height: 350px;
+}
+.exemplo {
+  background-color: blueviolet;
+  border: 5px solid orange;
+  color: bisque;
+  padding: 20px;
+  opacity: .5;
+}
+.exemplo img {
+    width: 90%;
+   
+}
