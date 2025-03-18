@@ -1,0 +1,28 @@
+#fundo {
+  background: greenyellow;
+}
+
+.exemplo {
+  background-color: aquamarine;
+  border: 3px solid orange;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+}
+#hidden {
+  overflow: hidden;
+}
+#scroll {
+  overflow: scroll;
+}
+#auto {
+  overflow: auto; /* Só vai adicionar a barra de rolagem se o conteúdo for maior */
+}
+#exemplo-1 {
+  overflow-y: scroll; /* Cria uma barra de scroll na vertical*/
+}
+#exemplo-2 {
+  white-space: nowrap; /* Não quebra nenhuma linha*/
+  overflow-y: hidden; /* Esconde a barra de scroll da vertical*/
+  overflow-x: scroll; /* Cria uma barra de scroll na horizontal*/
+}
