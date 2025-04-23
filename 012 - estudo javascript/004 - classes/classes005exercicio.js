@@ -16,4 +16,16 @@ class Pessoa {
     this.peso = peso;
     this.altura = altura;
   }
+  calcularImc() {
+    return this.peso / (this.altura * this.altura)
+  }
 }
+
+const marcelo = new Pessoa('Marcelo', 47, 1.75)
+console.log(marcelo)
+console.log(`IMC = ${marcelo.calcularImc()}`)
+
+const safira = new Pessoa('Safira', 2, 0.75)
+console.log(safira)
+console.log(`IMC = ${safira.calcularImc()}`)
+
