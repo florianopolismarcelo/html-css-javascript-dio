@@ -17,15 +17,30 @@ class Pessoa {
     this.altura = altura;
   }
   calcularImc() {
-    return this.peso / (this.altura * this.altura)
+    return this.peso / (this.altura * this.altura);
+  }
+  classificarImc() {
+    const imc = this.calcularImc();
+    if (imc < 18.5) {
+      return `Você está abaixo do peso`;
+    } else if (imc >= 18.5 && imc < 25) {
+      return `Você está com peso normal`;
+    } else if (imc >= 25 && imc < 30) {
+      return `Você está acima do peso`;
+    } else if (imc >= 30 && imc <= 40) {
+      return `Você está obeso`;
+    } else {
+      return `Você está com obsidade grave`;
+    }
   }
 }
 
-const marcelo = new Pessoa('Marcelo', 47, 1.75)
-console.log(marcelo)
-console.log(`IMC = ${marcelo.calcularImc()}`)
+const marcelo = new Pessoa("Marcelo", 76, 1.75);
+console.log(marcelo);
+console.log(`IMC = ${marcelo.calcularImc()}`);
+console.log(`${marcelo.classificarImc()}`);
 
-const safira = new Pessoa('Safira', 2, 0.75)
-console.log(safira)
-console.log(`IMC = ${safira.calcularImc()}`)
-
+const safira = new Pessoa("Safira", 3, 0.75);
+console.log(safira);
+console.log(`IMC = ${safira.calcularImc()}`);
+console.log(`${safira.classificarImc()}`);
