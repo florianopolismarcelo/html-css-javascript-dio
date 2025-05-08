@@ -6,8 +6,8 @@ const state = {
   },
   cardSprites: {
     avatar: document.getElementById("card-image"),
-    avatar: document.getElementById("card-name"),
-    avatar: document.getElementById("card-type"),
+    name: document.getElementById("card-name"),
+    type: document.getElementById("card-type"),
   },
   fieldCards: {
     player: document.getElementById("player-field-card"),
@@ -19,8 +19,8 @@ const state = {
 };
 
 const playerSides = {
-  player1: "player-field-card",
-  computer: "computer-field-card",
+  player1: "player-cards",
+  computer: "computer-cards",
 };
 
 const pathImages = "./src/assets/icons/";
@@ -30,7 +30,7 @@ const cardData = [
     id: 0,
     name: "Blue Eyes White Dragon",
     type: "Paper",
-    Img: `${pathImages}dragon.png`,
+    img: `${pathImages}dragon.png`,
     WinOf: [1],
     LoseOf: [2],
   },
@@ -38,7 +38,7 @@ const cardData = [
     id: 1,
     name: "Dark Magician",
     type: "Rock",
-    Img: `${pathImages}magician.png`,
+    img: `${pathImages}magician.png`,
     WinOf: [2],
     LoseOf: [0],
   },
@@ -46,7 +46,7 @@ const cardData = [
     id: 2,
     name: "Exodia",
     type: "Scissors",
-    Img: `${pathImages}exodia.png`,
+    img: `${pathImages}exodia.png`,
     WinOf: [0],
     LoseOf: [1],
   },
@@ -64,16 +64,21 @@ async function createCardImage(IdCard, fieldSide) {
   cardImage.setAttribute("data-id", IdCard);
   cardImage.classList.add("card");
 
-  if (fieldSide === "playerSides.player1") {
+  if (fieldSide === playerSides.player1) {
+    cardImage.addEventListener("mouseover", () => {
+      drawSelectCard(IdCard);
+    });
     cardImage.addEventListener("click", () => {
       setCardsField(cardImage.getAttribute("data-id"));
     });
   }
-
-  cardImage.addEventListener("mouseover", () => {
-    drawSelectCard(IdCard);
-  });
   return cardImage;
+}
+
+async function drawSelectCard(index) {
+  state.cardSprites.avatar.src = cardData[index].img;
+  state.cardSprites.name.innerText = cardData[index].name;
+  state.cardSprites.type.innerText = "Attibute: " + cardData[index].type;
 }
 
 async function drawCards(cardNumbers, fieldSide) {
@@ -85,7 +90,7 @@ async function drawCards(cardNumbers, fieldSide) {
   }
 }
 function init() {
-  drawCards(5, "playerSides.player1");
-  drawCards(5, "playerSides.computer");
+  drawCards(5, playerSides.player1);
+  drawCards(5, playerSides.computer);
 }
 init();
