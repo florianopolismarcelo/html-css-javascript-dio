@@ -6,8 +6,37 @@
     <title>Mundo Invertido</title>
   </head>
   <body>
-    <header></header>
+    <header aria-label="Cabeçalho da página.">
+      <audio id="music" autoplay>
+        <source src="./musics/normal-world.mpeg" aria-details="Audio do site" />
+      </audio>
+      <div class="header-content">
+        <img
+          class="invert-element"
+          src="./images/banner/logo.svg"
+          alt="Imagem principal Mundo Invertido. Semana Frontend DIO."
+        />
+        <p class="invert-element" role="text">
+          Uma jornada para quem não tem medo do desconhecido. O caminho para o
+          Mundo invertido é incerto, repleto de obstáculos e perigos. Porém, a
+          recompensa é grande: salvar Hawkings e o mundo todo das garras de
+          Vecna. Você está preparado? Então clique no botão abaixo para entrar
+          no Mundo Invertido!
+        </p>
+        <button id="switch-theme-button" onclick="switchTheme()">
+          Inverter Mundos
+        </button>
+      </div>
+
+      <div id="top-characters" class="world-characters"></div>
+    </header>
     <main></main>
-    <footer></footer>
+    <footer>
+      <p>
+        Projeto construído para fins didáticos, com o objetivo de colocar em
+        prática os conhecimentos de HTML, CSS e JavaScript aprendidos na DIO._
+      </p>
+      <img src="./images/footer/logo.svg" alt="" />
+    </footer>
   </body>
 </html>
