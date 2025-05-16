@@ -12,7 +12,8 @@
         "image-alt": "off"
       }
     ],
-    "axe/aria": "off"
+    "axe/aria": "off",
+    "css-prefix-order": "off"
   },
   "browserslist": [
     "defaults",
