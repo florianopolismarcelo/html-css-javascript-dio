@@ -13,7 +13,13 @@
       }
     ],
     "axe/aria": "off",
-    "css-prefix-order": "off"
+    "css-prefix-order": "off",
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off"
+      }
+    ]
   },
   "browserslist": [
     "defaults",
