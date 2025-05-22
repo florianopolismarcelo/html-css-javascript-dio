@@ -17,6 +17,33 @@
   </head>
   <body>
     <header class="header">
+      <nav class="header__nav">
+        <ul class="menu menu--principal">
+          <li class="menu__item">
+            <a class="menu__link active" href="#home">
+              <span class="menu__text">Home</span>
+            </a>
+          </li>
+
+          <li class="menu__item">
+            <a class="menu__link" href="#projetos">
+              <span class="menu__text">Projetos</span>
+            </a>
+          </li>
+
+          <li class="menu__item">
+            <a class="menu__link" href="#sobre">
+              <span class="menu__text">Sobre</span>
+            </a>
+          </li>
+
+          <li class="menu__item">
+            <a class="menu__link" href="#contato">
+              <span class="menu__text">Contato</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
       <div class="header__brand">
         <img
           class="brand__logo"
@@ -24,9 +51,11 @@
           alt="Logo EA"
         />
       </div>
-      <i id="toggleTheme" class="bi bi-sun"></i>
+      <div class="heder__toggle">
+        <i id="toggleTheme" class="bi bi-sun"></i>
+      </div>
     </header>
-    <nav>
+    <nav class="nav--mobile">
       <ul class="menu menu--mobile">
         <li class="menu__item">
           <a class="menu__link active" href="#home">
